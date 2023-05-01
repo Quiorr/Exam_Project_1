@@ -1,0 +1,30 @@
+.body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.postsList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+
+.postsList input {
+  width: 10vw;
+  height: 40px;
+}
+
+.postsList div {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.postsList div li {
+  width: 25vw;
+  list-style: none;
+  border: 2px solid;
+  padding: 10px;
+}
